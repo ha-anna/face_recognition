@@ -1,0 +1,17 @@
+[project]
+name = "face_recognition_ha-anna"
+version = "0.0.1"
+authors = [
+  { name="Anna Ha", email="anna@haanna.com" },
+]
+description = "Face recognition project."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ha-anna/face_recognition"
+Issues = "https://github.com/ha-anna/face_recognition/issues"
