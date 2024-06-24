@@ -1,3 +1,6 @@
+init:
+	pip install -r requirements.txt
+
 run:
 	python3 './src/face_recognition_ha-anna/main.py'
 
@@ -6,6 +9,13 @@ up:
 
 format:
 	black './src/face_recognition_ha-anna'
+	black './tests'
 
 test:
-	pytest .
+	python3 -m pytest .
+
+check:
+	ruff check
+
+fix:
+	ruff check --fix

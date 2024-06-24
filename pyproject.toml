@@ -15,3 +15,9 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/ha-anna/face_recognition"
 Issues = "https://github.com/ha-anna/face_recognition/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["./src/face_recognition_ha-anna"]
+addopts = [
+    "--import-mode=importlib",
+]
