@@ -169,3 +169,6 @@ pip-selfcheck.json
 
 # vs code
 .vscode
+resources/faces_data/*
+resources/annotated_faces/*
+resources/unknown_faces/*

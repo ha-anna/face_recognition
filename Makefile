@@ -2,13 +2,13 @@ init:
 	pip install -r requirements.txt
 
 run:
-	python3 './src/face_recognition_ha-anna/main.py'
+	python3 './src/face_recognition/main.py'
 
 up:
 	pip freeze > requirements.txt
 
 format:
-	black './src/face_recognition_ha-anna'
+	black './src/face_recognition'
 	black './tests'
 
 test:

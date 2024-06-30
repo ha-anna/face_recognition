@@ -1,7 +1,5 @@
 # Face recognition project
 
-My final project for [CS50P](https://cs50.harvard.edu/python/2022/).
-
 ## About the Project
 
 ### Built with
@@ -31,14 +29,6 @@ My final project for [CS50P](https://cs50.harvard.edu/python/2022/).
 - `ci` – continuous integration related
 - `build` – changes that affect the build system or external dependencies
 - `revert` – reverts a previous commit
-
-## Getting started
-
-To get a local copy up and running follow these simple example steps:
-
-### Prerequisites
-
-### Installation
 
 ## Contact
 
